@@ -20,7 +20,7 @@ function MyTimer({ expiryTimestamp }) {
             <style>
             @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
           </style>
-          <h1 className="ent-name">Well done on working hard!</h1>
+          <h1 className="ent-name">Time for a break</h1>
           <div style={{fontSize: '100px'}} className="ent-timer">
             <span>{hours}</span>:<span>{minutes}</span>:<span>{seconds}</span>
           </div>
@@ -64,7 +64,7 @@ export function Display(props) {
         .then(data => setplaceData(data))
     },[])
     useEffect(() => {
-        axios.get('https://secret-ocean-49799.herokuapp.com/https://api.duckduckgo.com/?q=' + company + 'company' + '&format=json')
+        axios.get('https://secret-ocean-49799.herokuapp.com/https://api.duckduckgo.com/?q=' + company + '&format=json')
         .then(data => setcompanyData(data))
     },[])
     useEffect(() => {
@@ -83,7 +83,6 @@ export function Display(props) {
                     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
                 </style>
                 <div>
-                    <h1 className="duckduckgo">From DuckDuckGo</h1>
                     <p className="ent-reward-p">Reward yourself!</p>
                 </div>
                 <div>
@@ -91,39 +90,38 @@ export function Display(props) {
                 </div>
                 <div>
                     <div className="ent-1">
-                        <h1>{movie}</h1>
-                        <h1>{movieData?.data?.AbstractText}</h1>
-                        <img src={movieData?.data?.Image}></img>
+                        <p>{movie}</p>
+                        <p>{movieData?.data?.AbstractText}</p>
+                        {/* <img src={movieData?.data?.Image}></img> */}
                         <ReactAPI.MovieAPI />
                     </div>
                     <div className="ent-1">
-                        <h1>{sport}</h1>
-                        <h1>{sportData?.data?.AbstractText}</h1>
-                        <img src={sportData?.data?.Image}/>
+                        <p>{sport}</p>
+                        <p>{sportData?.data?.AbstractText}</p>
+                        {/* <img src={sportData?.data?.Image}/> */}
                     </div>
                     <div className="ent-1">
-                        <h1>{place}</h1>
-                        <h1>{placeData?.data?.AbstractText}</h1>
-                        <img src={placeData?.data?.Image}></img>
+                        <p>{place}</p>
+                        <p>{placeData?.data?.AbstractText}</p>
+                        {/* <img src={placeData?.data?.Image}></img> */}
                     </div>
                     <div className="ent-1">
-                        <h1>{company}</h1>
-                            <h1>{companyData?.data?.AbstractText}</h1>
-                            <img src={companyData?.data?.Image}></img>
-                            <ReactAPI.AnimalAPI />
+                        <p>{company}</p>
+                        <p>{companyData?.data?.AbstractText}</p>
+                        {/* <img src={companyData?.data?.Image}></img> */}
+                        <ReactAPI.AnimalAPI />
                     </div>
                     <div className="ent-1">
-                        <h1>{game}</h1>
-                        <h1>{gameData?.data?.AbstractText}</h1>
-                        <img src={gameData?.data?.Image}/>
+                        <p>{game}</p>
+                        <p>{gameData?.data?.AbstractText}</p>
+                        {/* <img src={gameData?.data?.Image}/> */}
                     </div>
                     <div className="ent-1">
-                        <h1>{other}</h1>
-                        <h1>{otherData?.data?.AbstractText}</h1>
-                        <img src={otherData?.data?.Image}></img>
+                        <p>{other}</p>
+                        <p>{otherData?.data?.AbstractText}</p>
+                        {/* <img src={otherData?.data?.Image}></img> */}
                         <ReactAPI.OtherAPI/>
                     </div>
-                    <Link to="/" className="ent-link-home">Home</Link>
                 </div>
             </div>
         </div>
