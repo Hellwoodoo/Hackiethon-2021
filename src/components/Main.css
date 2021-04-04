@@ -1,0 +1,261 @@
+@keyframes transitionIn{
+    from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+    }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+    }
+}
+
+
+.Main {
+    position: absolute;
+    width: 460px;
+    height: 153px;
+    left: 80px;
+    top: 71px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    animation: transitionIn 4.0s;
+    color: #C59898;
+}
+
+.Main-slogan {
+    position: absolute;
+    width: 881px;
+    height: 45px;
+    left: -140px;
+    top: 243px;
+    animation: transitionIn 4s;
+
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #D86767;
+}
+
+.Main-background {
+    position: relative;
+    width: 1920;
+    height: 1280px;
+
+    background: #1C2151;
+}
+
+.Main-square {
+    position: absolute;
+    width: 540px;
+    height: 651px;
+    left: 754px;
+    top: 74px;
+
+    background: #29285F;
+}
+
+.Main-para {
+    position: absolute;
+    width: 452px;
+    height: 281px;
+    left: 84px;
+    top: 285px;
+    animation: transitionIn 4s;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #945151;
+}
+
+.Main-form {
+    position: absolute;
+    width: 314px;
+    height: 58px;
+    left: 576px;
+    top: 781px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Main-rectangle {
+    position: absolute;
+    width: 477px;
+    height: 184px;
+    left: 73px;
+    top: 535px;
+    animation: transitionIn 4s;
+
+    background: #d4bfbf;
+}
+
+.steps-para {
+    position: absolute;
+    width: 410px;
+    height: 392px;
+    left: 819px;
+    top: 166px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    animation: transitionIn 4s;
+    color: #FFFFFF;
+}
+
+
+.Main-time {
+    position: absolute;
+    width: 227px;
+    height: 76px;
+    left: 194px;
+    top: 545px;
+    animation: transitionIn 7s;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+
+@font-face {
+    font-family: Nunito, sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+}
+
+
+.Main-label-one { 
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 937px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #e9dada;
+}
+
+.label-one-form {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 519px;
+    top: 937px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.Main-label-two {
+    position: absolute;
+    width: 355px;
+    height: 18px;
+    left: 154px;
+    top: 1037px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #e9dada;
+}
+
+.label-two-form {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 519px;
+    top: 1037px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.Main-label-three {
+    position: absolute;
+    width: 355px;
+    height: 18px;
+    left: 154px;
+    top: 1137px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #e9dada;
+}
+
+.label-three-form {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 519px;
+    top: 1137px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.mem5-timer {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 564px;
+    top: 1210px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #a88989;
+}
+
+.form-transitions {
+    animation: transitionIn 10s;
+}

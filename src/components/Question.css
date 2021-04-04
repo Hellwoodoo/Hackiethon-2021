@@ -1,0 +1,278 @@
+
+
+.q-background {
+    position: relative;
+    width: 1280;
+    height: 1060px;
+
+    background: #1C2151;
+}
+
+.q-title {
+    position: absolute;
+    width: 324px;
+    height: 18px;
+    left: 576px;
+    top: 34px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 65px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.q-label-one {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 237px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-label-two {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 337px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-label-three {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 437px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-label-four {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 537px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-label-five {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 637px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-label-five {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 660px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-label-six {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 760px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-label-seven {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 164px;
+    top: 860px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #c9aeae;
+}
+
+.q-form-one {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 579px;
+    top: 237px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.q-form-two {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 579px;
+    top: 337px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.q-form-three {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 579px;
+    top: 437px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.q-form-four {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 579px;
+    top: 537px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.q-form-five {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 579px;
+    top: 660px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.q-form-six {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 579px;
+    top: 760px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.q-form-seven {
+    position: absolute;
+    width: 656px;
+    height: 32px;
+    left: 579px;
+    top: 860px;
+
+    background: #EDCACA;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+@font-face {
+    font-family: Nunito, sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+}
+
+.link-entertainment {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 564px;
+    top: 930px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #dfcbcb;
+}
+
+.link-restart {
+    position: absolute;
+    width: 335px;
+    height: 18px;
+    left: 564px;
+    top: 990px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #dfcbcb;
+}
